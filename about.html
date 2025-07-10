@@ -13,6 +13,8 @@
       font-family: 'Orbitron', sans-serif;
       background-color: #0d0d0d;
       color: #f2f2f2;
+      background-size: cover;
+      background-position: center;
     }
 
     header {
@@ -75,6 +77,37 @@
       color: #cccccc;
     }
 
+    .partners {
+      margin-top: 50px;
+    }
+
+    .partners h3 {
+      font-size: 24px;
+      color: #00ffc8;
+      margin-bottom: 20px;
+    }
+
+    .partner-logos {
+      display: flex;
+      justify-content: center;
+      gap: 40px;
+      flex-wrap: wrap;
+    }
+
+    .partner-logos img {
+      width: 150px;
+      height: auto;
+      border: 2px solid #00ffc8;
+      border-radius: 8px;
+      padding: 10px;
+      background-color: #1a1a1a;
+      transition: transform 0.3s;
+    }
+
+    .partner-logos img:hover {
+      transform: scale(1.05);
+    }
+
     footer {
       background-color: #121212;
       color: #888;
@@ -102,7 +135,7 @@
       <ul>
         <li><a href="index.html">Home</a></li>
         <li><a href="gallery.html">Gallery</a></li>
-        <li><a href="table.html">Games</a></li>
+        <li><a href="table.html">Categories</a></li>
         <li><a href="contact.html">Contact</a></li>
         <li><a href="about.html">About</a></li>
       </ul>
@@ -118,11 +151,21 @@
     <p>
       Our mission is to build a connected community of gamers who appreciate high-quality design, easy navigation, and exciting discoveries. Stay updated, get inspired, and explore more through our curated experiences.
     </p>
+
+    <div class="partners">
+      <h3>Our Partners</h3>
+      <div class="partner-logos">
+        <img src="imagepartner1.jpg" alt="Partner 1">
+        <img src="imagepartner2.jpg" alt="Partner 2">
+        <img src="imagepartner3.jpg" alt="Partner 3">
+        <img src="imagepartner4.jpg" alt="Partner 4">
+      </div>
+    </div>
   </section>
 
   <footer>
     <p>&copy; 2025 GameVerse | Kathmandu, Nepal | 
-      <a href="flameolsen@gmail.com">flameolsen@gmail.com</a>
+      <a href="mailto:flameolsen@gmail.com">flameolsen@gmail.com</a>
     </p>
   </footer>
 
